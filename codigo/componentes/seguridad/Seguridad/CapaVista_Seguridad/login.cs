@@ -1,4 +1,5 @@
-﻿using System;
+﻿using proyecto2k26;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,7 +37,10 @@ namespace CapaVista_Seguridad
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FrmAsignacionAppPerf frmPerfil = new FrmAsignacionAppPerf();
+            this.Hide();
+            frmPerfil.ShowDialog();
+            this.Show();
         }
     }
 }
