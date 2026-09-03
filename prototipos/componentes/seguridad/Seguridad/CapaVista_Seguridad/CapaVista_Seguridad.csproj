@@ -47,6 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAsignacionAplicacionUsuario.cs" />
+    <Compile Include="FrmAsignacionAplicacionUsuario.Designer.cs">
+      <DependentUpon>FrmAsignacionAplicacionUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +65,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmAsignacionAplicacionUsuario.resx">
+      <DependentUpon>FrmAsignacionAplicacionUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
