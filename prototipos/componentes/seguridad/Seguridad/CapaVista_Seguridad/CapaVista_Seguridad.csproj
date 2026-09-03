@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmAsignacionAplicacionUsuario.cs" />
+    <Compile Include="FrmAsignacionAplicacionUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmAsignacionAplicacionUsuario.Designer.cs">
       <DependentUpon>FrmAsignacionAplicacionUsuario.cs</DependentUpon>
     </Compile>
