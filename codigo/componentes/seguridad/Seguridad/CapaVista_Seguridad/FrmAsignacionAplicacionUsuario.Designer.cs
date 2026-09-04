@@ -139,12 +139,13 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(687, 59);
+            this.btnAgregar.Location = new System.Drawing.Point(677, 59);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(100, 35);
+            this.btnAgregar.Size = new System.Drawing.Size(122, 35);
             this.btnAgregar.TabIndex = 7;
-            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Text = "Form Bitacora";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // colIngresar
             // 
@@ -263,7 +264,7 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Asignación de Aplicación a Usuario";
             // 
-            // Form1
+            // FrmAsignacionAplicacionUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -274,7 +275,7 @@
             this.Controls.Add(this.grpDatos);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblTitulo);
-            this.Name = "Form1";
+            this.Name = "FrmAsignacionAplicacionUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asignación de Aplicación a Usuario";
             this.grpDatos.ResumeLayout(false);
