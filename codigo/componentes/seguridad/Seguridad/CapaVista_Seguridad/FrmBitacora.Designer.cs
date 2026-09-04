@@ -56,9 +56,8 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(1, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1729, 1055);
+            this.panel1.Size = new System.Drawing.Size(1537, 844);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -66,10 +65,9 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(247)))), ((int)(((byte)(242)))));
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(28, 31);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Location = new System.Drawing.Point(25, 25);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1671, 262);
+            this.panel3.Size = new System.Drawing.Size(1485, 210);
             this.panel3.TabIndex = 1;
             // 
             // label2
@@ -77,9 +75,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
-            this.label2.Location = new System.Drawing.Point(158, 141);
+            this.label2.Location = new System.Drawing.Point(140, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(424, 19);
+            this.label2.Size = new System.Drawing.Size(344, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Administra la información del sistema de manera eficiente.";
             // 
@@ -88,9 +86,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(109)))), ((int)(((byte)(119)))));
-            this.label1.Location = new System.Drawing.Point(154, 82);
+            this.label1.Location = new System.Drawing.Point(137, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(365, 48);
+            this.label1.Size = new System.Drawing.Size(301, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Gestión de Datos";
             // 
@@ -104,21 +102,19 @@
             this.panel2.Controls.Add(this.btnBuscarFecha);
             this.panel2.Controls.Add(this.btnExportar);
             this.panel2.Controls.Add(this.btnVerBitacora);
-            this.panel2.Location = new System.Drawing.Point(28, 320);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(25, 256);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1671, 702);
+            this.panel2.Size = new System.Drawing.Size(1485, 562);
             this.panel2.TabIndex = 0;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(35, 188);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(31, 150);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1144, 455);
+            this.dataGridView1.Size = new System.Drawing.Size(1017, 364);
             this.dataGridView1.TabIndex = 6;
             // 
             // panel4
@@ -127,10 +123,9 @@
             this.panel4.Controls.Add(this.btnReporte);
             this.panel4.Controls.Add(this.btnSalir);
             this.panel4.Controls.Add(this.btnImprimir);
-            this.panel4.Location = new System.Drawing.Point(1215, 278);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel4.Location = new System.Drawing.Point(1080, 222);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(424, 265);
+            this.panel4.Size = new System.Drawing.Size(377, 212);
             this.panel4.TabIndex = 5;
             // 
             // btnReporte
@@ -139,10 +134,9 @@
             this.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporte.ForeColor = System.Drawing.Color.White;
-            this.btnReporte.Location = new System.Drawing.Point(226, 146);
-            this.btnReporte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnReporte.Location = new System.Drawing.Point(201, 117);
             this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(165, 88);
+            this.btnReporte.Size = new System.Drawing.Size(147, 70);
             this.btnReporte.TabIndex = 8;
             this.btnReporte.Text = "Reporte";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -154,10 +148,9 @@
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.White;
-            this.btnSalir.Location = new System.Drawing.Point(35, 146);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSalir.Location = new System.Drawing.Point(31, 117);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(165, 88);
+            this.btnSalir.Size = new System.Drawing.Size(147, 70);
             this.btnSalir.TabIndex = 7;
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -169,10 +162,9 @@
             this.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnImprimir.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimir.ForeColor = System.Drawing.Color.White;
-            this.btnImprimir.Location = new System.Drawing.Point(35, 35);
-            this.btnImprimir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnImprimir.Location = new System.Drawing.Point(31, 28);
             this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(356, 88);
+            this.btnImprimir.Size = new System.Drawing.Size(316, 70);
             this.btnImprimir.TabIndex = 6;
             this.btnImprimir.Text = "Imprimir";
             this.btnImprimir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,10 +176,9 @@
             this.btnBuscarAccion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarAccion.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarAccion.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarAccion.Location = new System.Drawing.Point(1335, 58);
-            this.btnBuscarAccion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnBuscarAccion.Location = new System.Drawing.Point(1187, 46);
             this.btnBuscarAccion.Name = "btnBuscarAccion";
-            this.btnBuscarAccion.Size = new System.Drawing.Size(305, 88);
+            this.btnBuscarAccion.Size = new System.Drawing.Size(271, 70);
             this.btnBuscarAccion.TabIndex = 4;
             this.btnBuscarAccion.Text = "Asignacion Perf-Usu";
             this.btnBuscarAccion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,10 +191,9 @@
             this.btnBuscarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarUsuario.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarUsuario.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarUsuario.Location = new System.Drawing.Point(1008, 58);
-            this.btnBuscarUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnBuscarUsuario.Location = new System.Drawing.Point(896, 46);
             this.btnBuscarUsuario.Name = "btnBuscarUsuario";
-            this.btnBuscarUsuario.Size = new System.Drawing.Size(305, 88);
+            this.btnBuscarUsuario.Size = new System.Drawing.Size(271, 70);
             this.btnBuscarUsuario.TabIndex = 3;
             this.btnBuscarUsuario.Text = "Buscar por Usuario";
             this.btnBuscarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -215,10 +205,9 @@
             this.btnBuscarFecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarFecha.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarFecha.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarFecha.Location = new System.Drawing.Point(684, 58);
-            this.btnBuscarFecha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnBuscarFecha.Location = new System.Drawing.Point(608, 46);
             this.btnBuscarFecha.Name = "btnBuscarFecha";
-            this.btnBuscarFecha.Size = new System.Drawing.Size(305, 88);
+            this.btnBuscarFecha.Size = new System.Drawing.Size(271, 70);
             this.btnBuscarFecha.TabIndex = 2;
             this.btnBuscarFecha.Text = "Buscar por Fechas";
             this.btnBuscarFecha.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -230,10 +219,9 @@
             this.btnExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExportar.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExportar.ForeColor = System.Drawing.Color.White;
-            this.btnExportar.Location = new System.Drawing.Point(360, 58);
-            this.btnExportar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnExportar.Location = new System.Drawing.Point(320, 46);
             this.btnExportar.Name = "btnExportar";
-            this.btnExportar.Size = new System.Drawing.Size(305, 88);
+            this.btnExportar.Size = new System.Drawing.Size(271, 70);
             this.btnExportar.TabIndex = 1;
             this.btnExportar.Text = "Exportar";
             this.btnExportar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -245,10 +233,9 @@
             this.btnVerBitacora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerBitacora.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerBitacora.ForeColor = System.Drawing.Color.White;
-            this.btnVerBitacora.Location = new System.Drawing.Point(35, 58);
-            this.btnVerBitacora.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnVerBitacora.Location = new System.Drawing.Point(31, 46);
             this.btnVerBitacora.Name = "btnVerBitacora";
-            this.btnVerBitacora.Size = new System.Drawing.Size(305, 88);
+            this.btnVerBitacora.Size = new System.Drawing.Size(271, 70);
             this.btnVerBitacora.TabIndex = 0;
             this.btnVerBitacora.Text = "Ver toda la Bitácora";
             this.btnVerBitacora.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -256,12 +243,12 @@
             // 
             // FrmBitacora
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1731, 1058);
+            this.ClientSize = new System.Drawing.Size(1539, 844);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmBitacora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmBitacora";
