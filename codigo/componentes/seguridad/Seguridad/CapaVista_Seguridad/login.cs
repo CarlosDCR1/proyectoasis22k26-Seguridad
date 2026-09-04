@@ -1,4 +1,5 @@
 ﻿using proyecto2k26;
+using proyectosisk26;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,6 +41,17 @@ namespace CapaVista_Seguridad
             FrmAsignacionAppPerf frmPerfil = new FrmAsignacionAppPerf();
             this.Hide();
             frmPerfil.ShowDialog();
+            this.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Recuperacion formRecuperacion = new Recuperacion();
+
+            this.Hide();
+
+            formRecuperacion.ShowDialog();
+
             this.Show();
         }
     }
