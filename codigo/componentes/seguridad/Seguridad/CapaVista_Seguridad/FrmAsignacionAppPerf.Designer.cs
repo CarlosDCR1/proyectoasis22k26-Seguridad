@@ -291,6 +291,8 @@ namespace proyecto2k26
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmAsignacionAppPerf";
             this.Text = "Form1";
             this.panel2.ResumeLayout(false);
