@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AplicacionPerfiles;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,14 @@ namespace Ventana_Bitacora_Seguridad
         public FrmBitacora()
         {
             InitializeComponent();
+        }
+
+        private void btnBuscarAccion_Click(object sender, EventArgs e)
+        {
+
+            AsignacionPerfiles form = new AsignacionPerfiles();
+            form.Show();
+
         }
     }
 }

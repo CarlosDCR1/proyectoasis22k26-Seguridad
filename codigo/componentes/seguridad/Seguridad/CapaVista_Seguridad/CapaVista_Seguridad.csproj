@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsignacionPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignacionPerfiles.Designer.cs">
+      <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAsignacionAplicacionUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AsignacionPerfiles.resx">
+      <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAsignacionAplicacionUsuario.resx">
       <DependentUpon>FrmAsignacionAplicacionUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +144,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btn_ayuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconAsignacionPerfiles.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
