@@ -1,3 +1,4 @@
+using CapaVista_Seguridad;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,9 +30,10 @@ namespace proyecto2k26
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // TODO: lógica para agregar Perfil/Modulo/Aplicacion
-            // Ejemplo: leer txtPerfiles.Text, txtModulos.Text, txtAplicaciones.Text
-            // y agregarlos al dataGridView1 o a la base de datos.
+            FrmAsignacionAplicacionUsuario frmasigusu = new FrmAsignacionAplicacionUsuario();
+            this.Hide();
+            frmasigusu.ShowDialog();
+            this.Show();
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
