@@ -93,6 +93,16 @@ namespace CapaVista_Seguridad.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banner {
+            get {
+                object obj = ResourceManager.GetObject("banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btn_ayuda {
             get {
                 object obj = ResourceManager.GetObject("btn_ayuda", resourceCulture);
@@ -136,6 +146,16 @@ namespace CapaVista_Seguridad.Properties {
         internal static System.Drawing.Bitmap fondo2 {
             get {
                 object obj = ResourceManager.GetObject("fondo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconAsignacionPerfiles {
+            get {
+                object obj = ResourceManager.GetObject("iconAsignacionPerfiles", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
